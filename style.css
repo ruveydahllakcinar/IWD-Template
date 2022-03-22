@@ -404,9 +404,7 @@ p {
 }
 
 @media (max-width: 767px) {
-    .event-tab .tab-content .event-content .single-event .event-image img {
-        width: 100%;
-    }
+    .event-tab .tab-content .event-content .single-event .event-image img {}
 }
 
 .event-tab .tab-content .event-content .single-event .event-content {
@@ -473,8 +471,8 @@ p {
 
 @media only screen and (max-width: 768px) {
     .img-event {
-        width: 50px;
-        height: 50px;
+        width: 10px;
+        height: 10px;
         border: 1px solid gray;
         border-radius: 50%;
     }
@@ -1315,7 +1313,7 @@ p {
 .site-footer {
     position: relative;
     padding: 40px 0 30px;
-    background: #A1F6F1;
+    background: url(images/about-us-background.jpg) no-repeat;
     background-size: cover;
 }
 
